@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OperacionesApp.Pages.AreaDelRectangulo"
+             Title="Area De lRectangulo">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+            <Label Text="Ingrese Largo del rectangulo " />
+            <Entry Keyboard="Numeric" x:Name="txtLargo"/>
+
+            <Label Text="Ingrese el Ancho del rectangulo" />
+            <Entry Keyboard="Numeric" x:Name="txtAncho"/>
+
+            <Label Text="Area:"/>
+            <Entry IsReadOnly="True" x:Name="txtResultado"/>
+
+            <Button Text="Calcular" Background="Blue" TextColor="White" x:Name="BtnCalcularRectangulo" Clicked="BtnCalcularRectangulo_Clicked"/>
+            <Button Text="Limpiar Campos" Background="Red" TextColor="White" x:Name="BtnLimpiar" Clicked="BtnLimpiar_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -6,6 +6,6 @@
 
     <local:AreaDelCuadrado/>
     <local:AreaDelCirculo/>
-    <local:AreaDelTriangulo/>
+    <local:AreaDelRectangulo/>
 
 </TabbedPage>

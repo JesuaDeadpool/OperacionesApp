@@ -69,7 +69,7 @@
 	  <MauiXaml Update="Pages\AreaDelCuadrado.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\AreaDelTriangulo.xaml">
+	  <MauiXaml Update="Pages\AreaDelRectangulo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
