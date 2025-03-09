@@ -13,7 +13,9 @@
             <Label Text="Area:"/>
         <Entry IsReadOnly="True" x:Name="txtResultado"/>
 
-            <Button Text="Calcular" Background="Blue" TextColor="White"></Button>
+            <Button Text="Calcular" Background="Blue" TextColor="White" x:Name="btnCalCir" Clicked="btnCalCir_Clicked"></Button>
+            <Button Text="Limpiar Campos" Background="Red" TextColor="White" x:Name="BtnLimpiar" Clicked="BtnLimpiar_Clicked"/>
+        
     </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
