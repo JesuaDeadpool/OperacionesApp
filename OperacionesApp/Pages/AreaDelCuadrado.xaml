@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OperacionesApp.Pages.AreaDelCuadrado"
+             Title="Area Del Cuadrado">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label 
+            Text="Ingrese Lado " />
+            <Entry Keyboard="Numeric" x:Name="txtLado"/>
+
+            <Label Text="Area:"/>
+            <Entry IsReadOnly="True" x:Name="txtResultado"/>
+
+            <Button Text="Calcular" Background="Blue" TextColor="White" x:Name="BtnCalcular" Clicked="BtnCalcular_Clicked"/>
+            <Button Text="Limpiar Campos" Background="Red" TextColor="White" x:Name="BtnLimpiar" Clicked="BtnLimpiar_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
