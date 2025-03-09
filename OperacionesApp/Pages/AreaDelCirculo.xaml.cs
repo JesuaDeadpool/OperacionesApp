@@ -31,6 +31,8 @@ public partial class AreaDelCirculo : ContentPage
 
     private void BtnLimpiar_Clicked(object sender, EventArgs e)
     {
-
+        txtRadio.Text = "";
+        txtResultado.Text = "";
+        txtRadio.Focus(); 
     }
 }
